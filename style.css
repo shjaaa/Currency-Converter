@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background-color:#f4e4ba;
+}
+
+.container{
+    background:white;
+    padding:2rem;
+    border-radius:1rem;
+    min-height:45vh;
+    width:25rem;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+.container h2{
+    text-align:center;
+}
+
+form{
+    margin:2rem 0 1rem 0;
+}
+
+.amount p{
+    margin-bottom:0.5rem;
+}
+
+.amount input{
+    width:100%;
+    height:3rem;
+    border-radius:0.75rem;
+    border:1px solid lightgray;
+    padding-left:1rem;
+    font-size:1rem;
+    outline:none;
+}
+
+.dropdown{
+    margin-top:2rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.select-container{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+    border:1px solid lightgray;
+    border-radius:0.75rem;
+    padding:0.3rem;
+}
+
+.select-container img{
+    width:2rem;
+}
+
+.select-container select{
+    border:none;
+    outline:none;
+    font-size:1rem;
+    cursor:pointer;
+}
+
+.exchange{
+    font-size:1.8rem;
+    cursor:pointer;
+    margin-top:1.5rem;
+    transition:0.3s;
+}
+
+.exchange:hover{
+    transform:rotate(180deg);
+}
+
+.msg{
+    margin:2rem 0;
+    text-align:center;
+    font-size:1.1rem;
+    font-weight:500;
+}
+
+button{
+    width:100%;
+    height:3rem;
+    border:none;
+    outline:none;
+    border-radius:1rem;
+    background:#af4d98;
+    color:white;
+    font-size:1rem;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#963c80;
+}
